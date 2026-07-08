@@ -222,6 +222,8 @@ export default defineConfig({
             { text: 'Iconfont', link: '/user-guide/config/notion-next-iconfont' },
             { text: '代码样式', link: '/user-guide/config/notion-next-code-style' },
             { text: '自定义属性', link: '/user-guide/config/notion-next-custom-properties' },
+            { text: '文章复制权限', link: '/user-guide/config/copy-permission' },
+            { text: '文章版权声明', link: '/user-guide/config/article-copyright' },
             { text: '多语言站点', link: '/user-guide/config/notion-next-mulity-languages' },
             { text: '多站点聚合', link: '/user-guide/config/notion-next-site-combine' },
             { text: 'API Base URL', link: '/user-guide/config/notion-next-api_base_url' },
@@ -333,6 +335,8 @@ export default defineConfig({
           items: [
             { text: '开发文档首页', link: '/developer/' },
             { text: '快速上手', link: '/developer/GETTING_STARTED' },
+            { text: '愿景与路线图', link: '/developer/VISION_ROADMAP' },
+            { text: '开放生态长期计划', link: '/developer/LONG_TERM_PLAN' },
             { text: '架构总览', link: '/developer/ARCHITECTURE' },
             { text: '目录与模块', link: '/developer/PROJECT_STRUCTURE' },
             { text: '配置体系', link: '/developer/CONFIGURATION' },
@@ -347,6 +351,7 @@ export default defineConfig({
             { text: '维护者手册', link: '/developer/MAINTAINER_RUNBOOK.zh-CN' },
             { text: '版本更新说明', link: '/developer/UPDATE' },
             { text: '社区路线图', link: '/developer/COMMUNITY_SITE_ROADMAP' },
+            { text: '5.0 愿景与参与方向', link: '/developer/VISION_ROADMAP' },
             { text: 'RFC', link: '/developer/rfc/' }
           ]
         },
